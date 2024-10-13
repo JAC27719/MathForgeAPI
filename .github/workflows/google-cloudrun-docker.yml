@@ -38,7 +38,7 @@ on:
 env:
   PROJECT_ID: ${{ secrets.PROJECT_ID }} # TODO: update to your Google Cloud project ID
   REGION: 'us-central1' # TODO: update to your region
-  SERVICE: 'my-service' # TODO: update to your service name
+  SERVICE: 'mathforge' # TODO: update to your service name
   SERVICE_ACCOUNT: 'mathforge-github-wif@mathforge-438519.iam.gserviceaccount.com'
   WORKLOAD_IDENTITY_PROVIDER: 'projects/426020917641/locations/global/workloadIdentityPools/mathforge-github-pool/providers/mathforge-github-provider' # TODO: update to your workload identity provider
 
