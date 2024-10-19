@@ -9,7 +9,7 @@ RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
 COPY ./app /code/app
 
 # Expose the port that the application listens on.
-EXPOSE 8080
+EXPOSE 80
 
 CMD ["fastapi", "run", "app/main.py", "--port", "80"]
 
